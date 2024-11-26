@@ -1,0 +1,224 @@
+.centeredContainer {
+  width: 100%; /* 화면 전체 너비 */
+  height: 100vh; /* 화면 전체 높이 */
+  display: flex; /* Flexbox 사용 */
+  justify-content: center; /* 가로 중앙 정렬 */
+  align-items: center; /* 세로 중앙 정렬 */
+  padding: 20px; /* 페이지 전체 패딩 */
+  box-sizing: border-box; /* 패딩 포함 */
+  background-color: #f9f9f9; /* 배경색 */
+}
+.quantitySelector {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.quantityInput {
+  text-align: center;
+  padding: 0.3rem;
+}
+
+.quantityButton {
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.actionSection {
+  padding-right: 50px;
+  padding-bottom: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+.scrollContainer {
+  max-width: 100%; /* 최대 너비 제한 */
+  max-height: 85vh; /* 최대 높이 제한 */
+  width: 100%; /* 기본 너비 */
+  height: auto; /* 높이를 컨텐츠에 따라 조정 */
+  padding: 20px; /* ScrollContainer 내부 패딩 */
+  background-color: #ffffff; /* ScrollContainer 배경색 */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
+  border-radius: 10px; /* 모서리 둥글게 */
+  overflow-y: auto; /* 세로 스크롤 활성화 */
+  overflow-x: hidden; /* 가로 스크롤 비활성화 */
+}
+.scrollContainer::-webkit-scrollbar {
+  display: none; /* Chrome, Safari에서 스크롤 바 숨김 */
+}
+.sapUiSmallMargin {
+  margin: 10px;
+}
+.sapUiMediumMargin {
+  margin: 20px;
+}
+
+.sapUiSmallMarginTop {
+  margin-top: 10px;
+}
+
+.sapUiSmallMarginBottom {
+  margin-bottom: 10px;
+}
+
+.textCenter {
+  text-align: center;
+}
+.alignedContent {
+  display: flex; /* Flexbox 사용 */
+  flex-direction: column; /* 세로 정렬 */
+  align-items: flex-start; /* 왼쪽 정렬 */
+  text-align: left; /* 텍스트도 왼쪽 정렬 */
+}
+
+.sapUiSmallMarginTop {
+  margin-top: 10px; /* 위쪽 여백 */
+}
+.alignedContent {
+  display: flex; /* Flexbox 사용 */
+  flex-direction: column; /* 세로 정렬 */
+  align-items: flex-start; /* 왼쪽 정렬 */
+  text-align: left; /* 텍스트도 왼쪽 정렬 */
+}
+.descriptionPadding {
+  padding-left: 50px; /* 원하는 왼쪽 패딩 값 */
+}
+/* Custom styles for header */
+.sapUiTinyMarginBegin {
+  margin-left: 10px;
+}
+.whiteBackground {
+  background-color: white !important; /* 배경색 흰색 설정 */
+  width: 100%; /* 부모의 전체 너비 상속 */
+  height: auto; /* 내용물에 따라 높이 자동 조정 */
+  display: flex; /* 플렉스 박스로 레이아웃 관리 */
+  flex-direction: column; /* 세로 방향 정렬 */
+  padding: 10px; /* 내용과 경계 간의 여백 */
+  border-radius: 5px; /* 둥근 모서리 */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* 약간의 그림자 추가 (선택 사항) */
+}
+.tableContainer {
+  width: 100%;
+  overflow: visible; /* 스크롤바 제거 */
+}
+.smallGrayText {
+  color: gray; /* 텍스트 색상을 회색으로 설정 */
+  font-size: 12px; /* 글씨 크기를 작게 설정 */
+  font-weight: normal; /* (선택) 글씨를 보통 두께로 설정 */
+}
+.buttonContainer {
+  margin-top: 10px; /* 버튼 위 여백 */
+  margin-bottom: 10px; /* 버튼 아래 여백 */
+}
+/* Breadcrumbs의 마지막 슬래시 숨기기 */
+.sapMBreadcrumbs li:last-of-type .sapMBreadcrumbsSeparator {
+  display: none; /* 마지막 슬래시만 숨김 */
+}
+.awardSection {
+  width: 100%;
+  overflow: visible;
+  display: flex;
+  flex-wrap: wrap; /* 행이 짤리지 않고 다음 줄로 넘어가게 설정 */
+  justify-content: center;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.awardTitleBox {
+  margin-bottom: 20px;
+}
+
+.awardMainTitle {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+}
+
+.awardSubTitle {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+}
+
+.awardRow {
+  margin-top: 20px;
+}
+
+.awardBox {
+  width: 220px;
+  height: 200px;
+  text-align: center;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 10px; /* 각 박스에 10px 간격 추가 */
+
+  /* Flexbox로 중앙 정렬 */
+  display: flex; /* 플렉스박스 활성화 */
+  flex-direction: column; /* 요소를 세로로 정렬 */
+  justify-content: center; /* 세로 방향 중앙 정렬 */
+  align-items: center; /* 가로 방향 중앙 정렬 */
+}
+.awardHeader {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.awardSubheader {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
+
+.awardDescription {
+  font-size: 8px;
+  color: #333;
+  font-weight: bold;
+  margin-top: 5px;
+}
+.awardDescription2 {
+  font-size: 8px;
+  color: #333;
+  font-weight: bold;
+  margin-top: 5px;
+  text-align: left;
+}
+.awardBox1 {
+  width: 300px;
+  height: 100px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px; /* 각 박스에 10px 간격 추가 */
+}
+.awardImage {
+  padding-bottom: 90px;
+}
+.textLeftAlign {
+  margin-left: 0;
+}
+.priceLabel {
+  padding-right: 10px;
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.priceValue {
+  font-size: 18px;
+  font-weight: bold;
+}
+.specContainer{
+  width: auto;
+}
+.customTable{
+  justify-content: center;
+}
+.iceclass{
+  padding: 10px;
+  justify-content: center;
+}

@@ -1,0 +1,134 @@
+{
+  "water1": [
+    {
+      "id": "1",
+      "name": "Product 1",
+      "imagePath": "images/water1/water1_1.png"
+    },
+    {
+      "id": "2",
+      "name": "Product 2",
+      "imagePath": "images/water1/water1_2.png"
+    },
+    {
+      "id": "3",
+      "name": "Product 3",
+      "imagePath": "images/water1/water1_3.png"
+    },
+    { "id": "4", "name": "Product 4", "imagePath": "images/water1/ice.gif" },
+    {
+      "id": "5",
+      "name": "Product 5",
+      "imagePath": "images/water1/ice_info.gif"
+    },
+    {
+      "id": "6",
+      "name": "Product 6",
+      "imagePath": "images/water1/ice_diff.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Product 7",
+      "imagePath": "images/water1/water_control.png"
+    },
+    { "id": "8",
+      "name": "Product 8",
+      "imagePath": "images/water1/authentication.jpg" 
+    },
+    { "id": "9", "name": "Product 9", "imagePath": "images/water1/manage.jpg" }
+  ],
+  "water2": [
+    {
+      "id": "1",
+      "name": "Product 1",
+      "imagePath": "images/water1/water1_1.png"
+    },
+    {
+      "id": "2",
+      "name": "Product 2",
+      "imagePath": "images/water1/water1_2.png"
+    },
+    {
+      "id": "3",
+      "name": "Product 3",
+      "imagePath": "images/water1/water1_3.png"
+    },
+    { "id": "4", "name": "Product 4", "imagePath": "images/water1/ice.gif" },
+    {
+      "id": "5",
+      "name": "Product 5",
+      "imagePath": "images/water1/ice_info.gif"
+    },
+    {
+      "id": "6",
+      "name": "Product 6",
+      "imagePath": "images/water1/ice_diff.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Product 7",
+      "imagePath": "images/water1/water_control.jpg"
+    },
+    { "id": "8",
+      "name": "Product 8",
+      "imagePath": "images/water1/authentication.png" 
+    },
+    { "id": "9",
+      "name": "Product 9",
+      "imagePath": "images/water1/water1.png" 
+    },
+    {
+      "id": "10",
+      "name": "Product 10",
+      "imagePath": "images/water1/water1.png"
+    }
+  ],
+  "icon": [
+    {
+      "id": "1",
+      "name": "KBP 아이콘",
+      "imagePath": "images/authentication/foot_awrad_icon_KBP.jpg"
+    },
+    {
+      "id": "2",
+      "name": "NBCI 아이콘",
+      "imagePath": "images/authentication/foot_awrad_icon_NBCI.jpg"
+    },
+    {
+      "id": "3",
+      "name": "NCSI 아이콘",
+      "imagePath": "images/authentication/foot_awrad_icon_NCSI.jpg"
+    },
+    {
+      "id": "4",
+      "name": "FBA 아이콘",
+      "imagePath": "images/authentication/foot_awrad_icon_FBA.jpg"
+    },
+    {
+      "id": "5",
+      "name": "SM 아이콘",
+      "imagePath": "images/authentication/sm-icon01.png"
+    },
+    {
+      "id": "6",
+      "name": "SM 아이콘",
+      "imagePath": "images/authentication/sm-icon02.png"
+    },
+    {
+      "id": "7",
+      "name": "SM 아이콘",
+      "imagePath": "images/authentication/sm-icon03.png"
+    },
+    {
+      "id": "8",
+      "name": "SM 아이콘",
+      "imagePath": "images/authentication/sm-icon06.png"
+    },
+    { "id": "9", "name": "Product 9", "imagePath": "images/water1/water1.png" },
+    {
+      "id": "10",
+      "name": "Product 10",
+      "imagePath": "images/water1/water1.png"
+    }
+  ]
+}
