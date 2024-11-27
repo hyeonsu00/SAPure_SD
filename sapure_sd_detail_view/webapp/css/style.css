@@ -8,6 +8,31 @@
   box-sizing: border-box; /* 패딩 포함 */
   background-color: #f9f9f9; /* 배경색 */
 }
+.scrollContainer {
+  max-width: 100%; /* 최대 너비 제한 */
+  max-height: 85vh; /* 최대 높이 제한 */
+  width: 100%; /* 기본 너비 */
+  height: auto; /* 높이를 컨텐츠에 따라 조정 */
+  padding: 20px; /* ScrollContainer 내부 패딩 */
+  background-color: #ffffff; /* ScrollContainer 배경색 */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
+  border-radius: 10px; /* 모서리 둥글게 */
+  overflow-y: auto; /* 세로 스크롤 활성화 */
+  overflow-x: hidden; /* 가로 스크롤 비활성화 */
+}
+.textLeftAlign {
+  margin-left: 0;
+}
+.descriptionPadding {
+  padding-left: 50px; /* 원하는 왼쪽 패딩 값 */
+}
+.sapUiSmallMarginTop {
+  margin-top: 10px;
+}
+.buttonContainer {
+  margin-top: 10px; /* 버튼 위 여백 */
+  margin-bottom: 10px; /* 버튼 아래 여백 */
+}
 .quantitySelector {
   display: flex;
   align-items: center;
@@ -33,18 +58,7 @@
   gap: 1rem;
 }
 
-.scrollContainer {
-  max-width: 100%; /* 최대 너비 제한 */
-  max-height: 85vh; /* 최대 높이 제한 */
-  width: 100%; /* 기본 너비 */
-  height: auto; /* 높이를 컨텐츠에 따라 조정 */
-  padding: 20px; /* ScrollContainer 내부 패딩 */
-  background-color: #ffffff; /* ScrollContainer 배경색 */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
-  border-radius: 10px; /* 모서리 둥글게 */
-  overflow-y: auto; /* 세로 스크롤 활성화 */
-  overflow-x: hidden; /* 가로 스크롤 비활성화 */
-}
+
 .scrollContainer::-webkit-scrollbar {
   display: none; /* Chrome, Safari에서 스크롤 바 숨김 */
 }
@@ -55,9 +69,7 @@
   margin: 20px;
 }
 
-.sapUiSmallMarginTop {
-  margin-top: 10px;
-}
+
 
 .sapUiSmallMarginBottom {
   margin-bottom: 10px;
@@ -82,9 +94,7 @@
   align-items: flex-start; /* 왼쪽 정렬 */
   text-align: left; /* 텍스트도 왼쪽 정렬 */
 }
-.descriptionPadding {
-  padding-left: 50px; /* 원하는 왼쪽 패딩 값 */
-}
+
 /* Custom styles for header */
 .sapUiTinyMarginBegin {
   margin-left: 10px;
@@ -107,10 +117,6 @@
   color: gray; /* 텍스트 색상을 회색으로 설정 */
   font-size: 12px; /* 글씨 크기를 작게 설정 */
   font-weight: normal; /* (선택) 글씨를 보통 두께로 설정 */
-}
-.buttonContainer {
-  margin-top: 10px; /* 버튼 위 여백 */
-  margin-bottom: 10px; /* 버튼 아래 여백 */
 }
 /* Breadcrumbs의 마지막 슬래시 숨기기 */
 .sapMBreadcrumbs li:last-of-type .sapMBreadcrumbsSeparator {
@@ -198,9 +204,7 @@
 .awardImage {
   padding-bottom: 90px;
 }
-.textLeftAlign {
-  margin-left: 0;
-}
+
 .priceLabel {
   padding-right: 10px;
   color: #333;

@@ -1,3 +1,23 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.sapUiBody {
+    height: 100%; /* SAPUI5의 Body 높이 지정 */
+}
+
+.toolPageContainer {
+    height: 100%; /* ToolPage의 전체 높이를 설정 */
+    overflow: hidden; /* ScrollContainer로 스크롤을 제어 */
+}
+
+.scrollableContent {
+    height: calc(100vh - 64px); /* 헤더 높이를 제외한 영역 */
+    overflow-y: auto; /* 수직 스크롤 활성화 */
+    overflow-x: hidden; /* 수평 스크롤 제거 */
+}
 .imageOverlay > img,
 .imageOverlay > .sapMText {
     width: 100%;
@@ -33,7 +53,7 @@
     width: 100% !important;
     height: 100% !important;
     object-fit: cover !important; /* 이미지가 컨테이너를 완전히 채우도록 설정 */
-    display: block;
+    display: block !important;
 }
 /* Carousel 컨테이너 */
 .sapMCrsl {
@@ -62,4 +82,98 @@
 .sapMCrslBullet.sapMCrslBulletActive {
     background-color: teal; /* 활성화된 인디케이터 색상 */
     transform: scale(1.2); /* 활성화된 점을 확대 */
+}
+.footerContainer {
+    background-color: #f7f7f7; /* 푸터 배경 */
+    padding: 20px;
+    font-size: 0.875rem;
+    color: #555; /* 텍스트 색상 */
+    border-top: 1px solid #ccc; /* 푸터 위쪽 경계선 */
+}
+
+.footerLinks {
+    margin-top: 10px;
+}
+
+.footerLinks .sapMText {
+    margin-bottom: 5px;
+}
+.footerContainer {
+    background-color: #f7f7f7;
+    padding: 20px;
+    font-size: 14px;
+    color: #555;
+    border-top: 1px solid #ccc;
+}
+
+.footerDivider {
+    width: 100%;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.footerContent {
+    padding: 10px 0;
+}
+
+.footerLink {
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.footerHeader {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.footerPhone {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.socialIcons img {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+}
+
+.footerBottom {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.footerCertifications img {
+    width: 50px;
+    height: auto;
+    margin: 0 10px;
+}
+#selectionList .sapMStdListItem {
+    height: 150px !important; /* 리스트 아이템의 고정 높이 설정 */
+    display: flex !important; /* Flexbox로 이미지와 텍스트 정렬 */
+    align-items: center !important; /* 세로 가운데 정렬 */
+    overflow: hidden !important; /* 넘치는 부분 숨기기 */
+    box-sizing: border-box !important; /* 패딩과 경계를 포함 */
+}
+
+#selectionList .sapMStdListItem img {
+    width: 100% !important; /* 이미지 너비를 부모에 맞춤 */
+    height: 100% !important; /* 이미지 높이를 부모에 맞춤 */
+    object-fit: cover !important; /* 이미지 비율을 유지하며 영역을 채움 */
+    display: block !important; /* 불필요한 공백 제거 */
+}
+.customListStyle .sapMStdListItem {
+    height: 150px !important;
+    display: flex !important;
+    align-items: center !important;
+    overflow: hidden !important;
+}
+
+.customListStyle .sapMStdListItem img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    border-radius: 0 !important;
 }
