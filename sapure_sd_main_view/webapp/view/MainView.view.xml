@@ -201,7 +201,7 @@
                         </VBox>
 
                         <VBox>
-                            <Image src="/sap/bc/ui5_ui5/sap/zc503sdgw0006/images/final/event0.png" class="carouselImage" alt="이벤트2" />
+                            <Image src="/images/final/event0.png" class="carouselImage" alt="이벤트2" />
                         </VBox>
 
                         <!-- Footer 영역 -->
