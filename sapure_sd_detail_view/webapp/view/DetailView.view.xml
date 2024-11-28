@@ -140,7 +140,7 @@
                                                     </HBox>
                                                 <!-- 장바구니 및 구매 버튼 -->
                                                 <SegmentedButton class="textRightAlign">
-                                                    <Button text="장바구니" icon="sap-icon://cart-4" width="100px" />
+                                                    <Button text="장바구니" icon="sap-icon://cart-4" width="95px" />
                                                     <Button text="구매" icon="sap-icon://credit-card" width="70px" />
                                                 </SegmentedButton>
                                             </VBox>
@@ -191,13 +191,13 @@
                                                             height="auto" />
 
                                                         <Image 
-                                                            src="/sap/bc/ui5_ui5/sap/zc503sdgw0002/images/water1/ice_info.gif"
+                                                            src="/images/test/ice_info.gif"
                                                             alt="얼음 차이점1" 
                                                             width="100%" 
                                                             height="auto" />
 
                                                         <Image 
-                                                            src="/sap/bc/ui5_ui5/sap/zc503sdgw0002/images/water1/ice_diff.jpg"
+                                                            src="/images/test/ice_diff2.jpg"
                                                             alt="얼음 차이점2" 
                                                             width="100%" 
                                                             height="auto" />
