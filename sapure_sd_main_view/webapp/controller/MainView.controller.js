@@ -5,6 +5,10 @@ sap.ui.define([
 
     return Controller.extend("zc503sd.gw0006.sapuresdmainview.controller.MainView", {
         onInit: function () {
+            // expand 모델 초기화 및 뷰에 설정
+            var oExpandModel = new sap.ui.model.json.JSONModel({ expanded: true });
+            this.getView().setModel(oExpandModel, "expand");
+            
             // JSON 모델 설정 (이미지 데이터)
             var oImageModel = new sap.ui.model.json.JSONModel();
             oImageModel.loadData("model/images.json");
