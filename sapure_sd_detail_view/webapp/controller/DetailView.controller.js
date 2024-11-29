@@ -21,7 +21,16 @@ function (Controller, MessageToast) {
             // DetailSet 데이터 로드 및 로그 확인
             oODataModel.read("/DetailSet", {
               success: function (OData) {
-                console.log("DetailSet data:", OData.results);
+                console.log("DetailSet before sorting data:", OData.results);
+
+                var sortedData = OData.results.sort(function (a, b) {
+                  if (a.Matnr < b.Matnr) return -1; // Matnr 기준 오름차순
+                  if (a.Matnr > b.Matnr) return 1;
+                  return 0;
+                });
+            
+                console.log("DetailSet data after sorting:", sortedData);
+
                 oModel.setData(OData.results);
                 this.getView().setModel(oModel, "oModel");
               }.bind(this),
@@ -34,7 +43,7 @@ function (Controller, MessageToast) {
             // 자동 슬라이딩 설정
             this._startCarouselAutoSlide();
           },
-          
+
             onAddToCart: function(){
               MessageToast.show("장바구니에 추가되었습니다!")
           },
