@@ -1,7 +1,7 @@
 sap.ui.define([
-    "sap/ui/core/mvc/Controller"
+    "sap/ui/core/mvc/Controller", "sap/m/MessageToast"
 ],
-function (Controller) {
+function (Controller, MessageToast) {
     "use strict";
 
     return Controller.extend("zc503sd.gw0002.sapuresddetailview.controller.DetailView", {
@@ -33,6 +33,10 @@ function (Controller) {
     
             // 자동 슬라이딩 설정
             this._startCarouselAutoSlide();
+          },
+          
+            onAddToCart: function(){
+              MessageToast.show("장바구니에 추가되었습니다!")
           },
     
           onCollapseExpandPress() {

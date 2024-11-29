@@ -60,21 +60,20 @@
                             <Carousel id="productImages" width="100%">
                                 
                                 <VBox class="imageOverlay">
-                                    <Image src="/images/final/event1.png" class="carouselImage" alt="이벤트2" />
+                                    <Image src="/sap/bc/ui5_ui5/sap/zc503sdgw0006/images/final/event1.png" class="carouselImage" alt="이벤트2" />
                                 </VBox>
-                                <!-- <VBox>
-                                    <Image src="/images/final/event22.gif" class="carouselImage" alt="블랙 프라이데이" />
+                                <VBox>
+                                    <Image src="/sap/bc/ui5_ui5/sap/zc503sdgw0006/images/final/event3.jpg" class="carouselImage" alt="이벤트2" />
+                                </VBox>
+                                <VBox>
+                                    <Image src="/sap/bc/ui5_ui5/sap/zc503sdgw0006/images/final/event2.gif" class="carouselImage" alt="블랙 프라이데이" />
                                     <VBox>
                                         <Text text="2024 SAPure 블랙프라이데이" class="textOverlay customPosition1" />
                                         <Text text="최대 12만원 캐시백부터" class="textOverlay customPosition2" />
                                         <Text text="초특가 창고대개방까지" class="textOverlay customPosition3" />
                                         <Text text="자세히 보기 →" class="textOverlay customPosition4" />
                                     </VBox>
-                                </VBox> -->
-                                <VBox>
-                                    <Image src="/images/final/event3.jpg" class="carouselImage" alt="이벤트2" />
                                 </VBox>
-                                
                             </Carousel>
                         </VBox>
 
@@ -91,7 +90,7 @@
                         <!-- 이미지와 선택 영역 -->
                         <VBox width="100%" class="imageSection" alignItems="Start" justifyContent="Start">
                             <VBox class="mainclass">
-                                <Image src="/sap/bc/ui5_ui5/sap/zc503sdgw0006/images/main.png" class="carouselImage" alt="메인" />
+                                <Image src="/sap/bc/ui5_ui5/sap/zc503sdgw0006/images/final/main.png" class="carouselImage" alt="메인" />
                             </VBox>
                             <!-- 제목 섹션 -->
                             <VBox width="100%" class="headerSection" alignItems="Start">
@@ -118,7 +117,7 @@
                                         <!-- 첫 번째 항목 -->
                                         <CustomListItem class="radius">
                                             <customData>
-                                                <core:CustomData key="imagePath" value="/sap/bc/ui5_ui5/sap/zc503sdgw0006/images/event3.png" />
+                                                <core:CustomData key="imagePath" value="/sap/bc/ui5_ui5/sap/zc503sdgw0006/images/final/event3.png" />
                                             </customData>
                                             <HBox alignItems="Center" justifyContent="Start" class="listItemRow">
                                                 <VBox width="10%">
@@ -133,7 +132,7 @@
                                         <!-- 두 번째 항목 -->
                                         <CustomListItem class="radius">
                                             <customData>
-                                                <core:CustomData key="imagePath" value="/sap/bc/ui5_ui5/sap/zc503sdgw0006/images/event4.png" />
+                                                <core:CustomData key="imagePath" value="/sap/bc/ui5_ui5/sap/zc503sdgw0006/images/final/event4.png" />
                                             </customData>
                                             <HBox alignItems="Center" justifyContent="Start" class="listItemRow">
                                                 <VBox width="10%">
@@ -149,7 +148,7 @@
                                         <!-- 세 번째 항목 -->
                                         <CustomListItem class="radius">
                                             <customData>
-                                                <core:CustomData key="imagePath" value="/sap/bc/ui5_ui5/sap/zc503sdgw0006/images/event5.png" />
+                                                <core:CustomData key="imagePath" value="/sap/bc/ui5_ui5/sap/zc503sdgw0006/images/final/event5.png" />
                                             </customData>
                                             <HBox alignItems="Center" justifyContent="Start" class="listItemRow">
                                                 <VBox width="10%">
@@ -170,11 +169,11 @@
                             <Title text="SAPure 온라인 파트너가 특별한 이유" class="specialItemTitle"/>
 
                             <!-- 3개의 카드 레이아웃 -->
-                            <HBox width="100%" height="250px" justifyContent="SpaceAround" class="sapUiSmallMarginTop">
+                            <HBox width="100%" height="240px" justifyContent="SpaceAround" class="sapUiSmallMarginTop">
                                 <!-- 첫 번째 카드 -->
                                 <VBox width="30%"  class="card">
                                     <VBox alignItems="Center" class="cardContent">
-                                        <Image src="/images/final/delivery.png" width="64px" height="64px" alt="배송/설치 아이콘"/>
+                                        <Image src="/sap/bc/ui5_ui5/sap/zc503sdgw0006/images/final/delivery.png" width="64px" height="64px" alt="배송/설치 아이콘"/>
                                         <Title text="SAPure 본사 직배송/설치" level="H4" class="sapUiTinyMarginTop"/>
                                         <Text text="본사의 전문 배송직원이 안전하게 내부 배송부터 설치까지 책임집니다. 안심하고 신청하세요!" textAlign="Center" wrapping="true" class="sapUiTinyMarginTop"/>
                                     </VBox>
@@ -183,7 +182,7 @@
                                 <!-- 두 번째 카드 -->
                                 <VBox width="30%" class="card">
                                     <VBox alignItems="Center" class="cardContent">
-                                        <Image src="/images/final/gift_icon.png" width="64px" height="64px" alt="사은품 아이콘"/>
+                                        <Image src="/sap/bc/ui5_ui5/sap/zc503sdgw0006/images/final/gift_icon.png" width="64px" height="64px" alt="사은품 아이콘"/>
                                         <Title text="특별 사은품 증정" level="H4" class="sapUiTinyMarginTop"/>
                                         <Text text="모든 SAPure 구매 고객에게 프리미엄 사은품을 100% 증정합니다." textAlign="Center" wrapping="true" class="sapUiTinyMarginTop"/>
                                     </VBox>
@@ -192,8 +191,8 @@
                                 <!-- 세 번째 카드 -->
                                 <VBox width="30%" class="card">
                                     <VBox alignItems="Center" class="cardContent">
-                                        <Image src="/images/final/sale.png" width="64px" height="64px" alt="단체가입 아이콘"/>
-                                        <Title text="단체 가입 시 더 특별한 가격" level="H4" class="sapUiTinyMarginTop"/>
+                                        <Image src="/sap/bc/ui5_ui5/sap/zc503sdgw0006/images/final/sale.png" width="64px" height="64px" alt="단체 구매 아이콘"/>
+                                        <Title text="단체 구매 시 더 특별한 가격" level="H4" class="sapUiTinyMarginTop"/>
                                         <Text text="기업/공공/소상공인/단체 등 단체 구매 시 우대 혜택을 드립니다." textAlign="Center" wrapping="true" class="sapUiTinyMarginTop"/>
                                     </VBox>
                                 </VBox>
@@ -201,7 +200,7 @@
                         </VBox>
 
                         <VBox>
-                            <Image src="/images/final/event0.png" class="carouselImage" alt="이벤트2" />
+                            <Image src="/sap/bc/ui5_ui5/sap/zc503sdgw0006/images/final/event0.png" class="carouselImage" alt="이벤트2" />
                         </VBox>
 
                         <!-- Footer 영역 -->
@@ -217,7 +216,7 @@
                                         <Text text="사이트맵" class="footerLink" />
                                     </VBox>
                                     <VBox width="50%" alignItems="End">
-                                        <Image src="/sap/bc/ui5_ui5/sap/zc503sdgw0006/images/sapure.png" alt="SAPure" width="100px"/>
+                                        <Image src="/sap/bc/ui5_ui5/sap/zc503sdgw0006/images/final/SAPURE.png" alt="SAPure" width="100px"/>
                                         <Text text="SAPure 고객센터" class="footerHeader" />
                                         <Text text="1588-1119" class="footerPhone" />
                                         <VBox alignItems="Start">

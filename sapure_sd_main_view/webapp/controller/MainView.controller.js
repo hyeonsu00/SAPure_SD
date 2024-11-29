@@ -16,7 +16,6 @@ sap.ui.define([
             // Hover 이벤트 연결
             this._attachHoverEvents();
         },
-
         _setInitialImage: function () {
             // 첫 번째 항목의 이미지 경로를 동적으로 설정
             const oList = this.byId("selectionList");
