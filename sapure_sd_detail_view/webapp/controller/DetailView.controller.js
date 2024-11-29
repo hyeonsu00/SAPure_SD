@@ -31,7 +31,7 @@ function (Controller, MessageToast) {
             
                 console.log("DetailSet data after sorting:", sortedData);
 
-                oModel.setData(OData.results);
+                oModel.setData(sortedData);
                 this.getView().setModel(oModel, "oModel");
               }.bind(this),
     
